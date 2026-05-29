@@ -123,7 +123,7 @@ namespace CybersecurityBot
                     return;
                 }
             }
-            catch (Exception ex)
+            catch (Exception  ex)
             {
                 BotReply(ex.Message);
             }   } 
