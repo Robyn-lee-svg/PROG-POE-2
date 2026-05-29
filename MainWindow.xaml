@@ -1,0 +1,84 @@
+﻿<Window
+    x:Class="CybersecurityBot.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    
+    Title="Cybersecurity Awareness Bot"
+    Height="600"
+    Width="800"
+    Background="#1E1E1E">
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Margin="0,0,-1,92" Grid.RowSpan="2">
+            <TextBlock Text="CYBERSECURITY AWARENESS BOT"
+                       FontSize="40"
+                       FontWeight="Bold"
+                       Foreground="Purple"
+                       HorizontalAlignment="Center"
+                       Margin="0,10"/>
+            <TextBlock Text=" WELCOME! HOW CAN I HELP YOU TODAY?"
+                       Foreground="Pink"
+                       FontSize="30"
+                       FontFamily="Consolas"
+                       TextAlignment="Center" Height="130" Width="790"/>
+
+            <TextBlock Text="   _='`'=_ 
+                               //(@_@)\\
+                               |||(Y)|||   
+                               \\\\ ////  
+                                OOOOOOO
+                                / )`( \  
+                               (  )'(  ) 
+                              (__w)_(w__) BOBO DOGG"
+                       FontSize="20"
+                       Foreground="Purple"
+                       FontFamily="Console"
+                       TextAlignment="Center"/>
+
+        </StackPanel>
+
+        <ScrollViewer Grid.Row="1"
+                          VerticalScrollBarVisibility="Auto"
+                          Margin="0,10">
+            <TextBlock x:Name="ChatDisplay"
+                       TextWrapping="Wrap"
+                       Foreground="White"
+                       FontSize="16"/>
+
+        </ScrollViewer>
+
+        <StackPanel Grid.Row="2"
+                    Orientation="Horizontal"
+                    Margin="0,10">
+            <TextBox x:Name="UserInput"
+                     Width="600"
+                     Height="40"
+                     FontSize="16"
+                     Margin="0,0,10,0"/>
+
+
+
+
+            <Button Content="Send"
+                     Width="171"
+                     Height="50"
+                     Background="Purple"
+                     Foreground="White"
+                     FontWeight="Bold"
+                     Click="SendButton_Click"/>
+
+
+
+
+        </StackPanel>
+
+
+    </Grid>
+</Window>
