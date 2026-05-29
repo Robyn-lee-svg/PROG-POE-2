@@ -16,7 +16,8 @@ namespace CybersecurityBot
         {
             "Be cautious of  emails, especially those asking for personal information.\n"+
             "Don't click on suspicious links or download attachments from unknown sources.\n"+
-            "Always verify the sender before opening or responding to an email.\n"
+            "Always verify the sender before opening or responding to an email.\n"+
+            "Block any suspious email or messages."\n"
         };
         public MainWindow()
         {
