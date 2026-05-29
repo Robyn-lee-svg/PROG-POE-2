@@ -29,18 +29,8 @@
                        FontFamily="Consolas"
                        TextAlignment="Center" Height="130" Width="790"/>
 
-            <TextBlock Text="   _='`'=_ 
-                               //(@_@)\\
-                               |||(Y)|||   
-                               \\\\ ////  
-                                OOOOOOO
-                                / )`( \  
-                               (  )'(  ) 
-                              (__w)_(w__) BOBO DOGG"
-                       FontSize="20"
-                       Foreground="Purple"
-                       FontFamily="Console"
-                       TextAlignment="Center"/>
+            
+                       
 
         </StackPanel>
 
